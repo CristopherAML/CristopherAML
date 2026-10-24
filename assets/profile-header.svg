@@ -1,0 +1,59 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cristopher Leyva — Full Stack Developer</title>
+  <desc id="desc">Banner profesional de Cristopher Leyva, especializado en backend e ingeniería de datos.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080B10"/>
+      <stop offset="0.62" stop-color="#11151D"/>
+      <stop offset="1" stop-color="#19120F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="70" y1="0" x2="1070" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7A45"/>
+      <stop offset="1" stop-color="#FFB36B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1015 180) rotate(180) scale(310 260)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6B35" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FF6B35" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.035"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="23" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="2"/>
+
+  <rect x="68" y="52" width="255" height="32" rx="16" fill="#FF7A45" fill-opacity="0.11" stroke="#FF8A55" stroke-opacity="0.5"/>
+  <circle cx="88" cy="68" r="5" fill="#FF8A55"/>
+  <text x="102" y="73" fill="#FFB080" font-family="Consolas, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.8">SYSTEMS · DATA · WEB</text>
+
+  <text x="68" y="148" fill="#F6F1E9" font-family="Arial, Helvetica, sans-serif" font-size="57" font-weight="800" letter-spacing="-1.5">CRISTOPHER LEYVA</text>
+  <rect x="68" y="171" width="72" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="68" y="221" fill="#D5D9E0" font-family="Consolas, Menlo, monospace" font-size="22" letter-spacing="1">FULL STACK DEVELOPER</text>
+  <text x="68" y="257" fill="#8F98A8" font-family="Consolas, Menlo, monospace" font-size="18">BACKEND  /  DATA ENGINEERING</text>
+  <text x="68" y="311" fill="#697386" font-family="Consolas, Menlo, monospace" font-size="13" letter-spacing="1.4">DEL DATO CRUDO AL SISTEMA QUE FUNCIONA.</text>
+
+  <circle cx="1005" cy="178" r="100" stroke="#FF8450" stroke-opacity="0.08" stroke-width="28"/>
+  <circle cx="1005" cy="178" r="86" stroke="#FF8450" stroke-opacity="0.2"/>
+  <circle cx="1005" cy="178" r="60" fill="#0D1117" stroke="#FF8450" stroke-opacity="0.34"/>
+  <circle cx="1005" cy="178" r="5" fill="#FF8A55" filter="url(#softGlow)"/>
+  <circle cx="1005" cy="178" r="4" fill="#FF9A65"/>
+
+  <path d="M878 98H928L949 119" stroke="#596273" stroke-opacity="0.65"/>
+  <circle cx="878" cy="98" r="4" fill="#596273"/>
+  <path d="M1063 237L1085 259H1135" stroke="#596273" stroke-opacity="0.65"/>
+  <circle cx="1135" cy="259" r="4" fill="#596273"/>
+  <path d="M899 265H943L965 243" stroke="#FF8450" stroke-opacity="0.5"/>
+  <circle cx="899" cy="265" r="4" fill="#FF8450"/>
+  <path d="M1063 119L1086 96H1122" stroke="#FF8450" stroke-opacity="0.5"/>
+  <circle cx="1122" cy="96" r="4" fill="#FF8450"/>
+
+  <text x="975" y="169" fill="#F6F1E9" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800">10M+</text>
+  <text x="970" y="193" fill="#929BAB" font-family="Consolas, Menlo, monospace" font-size="9" letter-spacing="0.8">RECORDS</text>
+</svg>
