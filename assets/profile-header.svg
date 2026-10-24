@@ -1,43 +1,114 @@
-<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Cristopher Leyva — Full Stack Developer</title>
-  <desc id="desc">Banner editorial de Cristopher Leyva, especializado en desarrollo Full Stack, backend e ingeniería de datos.</desc>
+  <desc id="desc">Banner espacial cinematográfico en tonos azul eléctrico con un astronauta, estrellas y un planeta.</desc>
 
   <defs>
-    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.5" fill="#151515" fill-opacity="0.12"/>
-    </pattern>
-    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#FF5D2A"/>
-      <stop offset="1" stop-color="#FF8A4C"/>
+    <linearGradient id="space" x1="40" y1="20" x2="1160" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#02030A"/>
+      <stop offset="0.48" stop-color="#050B19"/>
+      <stop offset="1" stop-color="#071D38"/>
     </linearGradient>
+    <radialGradient id="nebula" cx="0" cy="0" r="1" gradientTransform="translate(918 166) rotate(168) scale(460 250)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#087BFF" stop-opacity="0.28"/>
+      <stop offset="0.45" stop-color="#124DCC" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#051020" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="planet" cx="0" cy="0" r="1" gradientTransform="translate(1114 71) rotate(125) scale(196)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#64C8FF"/>
+      <stop offset="0.34" stop-color="#126DEB"/>
+      <stop offset="0.72" stop-color="#073276"/>
+      <stop offset="1" stop-color="#020713"/>
+    </radialGradient>
+    <linearGradient id="visor" x1="852" y1="98" x2="953" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BDEEFF"/>
+      <stop offset="0.25" stop-color="#369DFF"/>
+      <stop offset="0.62" stop-color="#0B3F8E"/>
+      <stop offset="1" stop-color="#03142E"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="843" y1="152" x2="989" y2="335" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF7FF"/>
+      <stop offset="0.52" stop-color="#9FB7CE"/>
+      <stop offset="1" stop-color="#43566B"/>
+    </linearGradient>
+    <linearGradient id="blueLine" x1="61" y1="0" x2="622" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18A8FF"/>
+      <stop offset="1" stop-color="#18A8FF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blueGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1200" height="360" rx="24"/>
+    </clipPath>
   </defs>
 
-  <rect width="1200" height="340" rx="22" fill="#F2EEE7"/>
-  <rect x="1" y="1" width="1198" height="338" rx="21" stroke="#151515" stroke-opacity="0.18" stroke-width="2"/>
-  <rect x="0" y="0" width="18" height="340" rx="9" fill="url(#orange)"/>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#space)"/>
+    <rect width="1200" height="360" fill="url(#nebula)"/>
 
-  <rect x="57" y="45" width="112" height="28" fill="#151515"/>
-  <text x="70" y="64" fill="#F2EEE7" font-family="Consolas, Menlo, monospace" font-size="11" font-weight="700" letter-spacing="1.5">PORTFOLIO / 26</text>
-  <text x="187" y="64" fill="#6B665F" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="1.5">CDMX · MÉXICO</text>
+    <!-- Nebula light -->
+    <ellipse cx="905" cy="197" rx="282" ry="82" transform="rotate(-18 905 197)" fill="#087BFF" fill-opacity="0.08" filter="url(#blueGlow)"/>
 
-  <text x="57" y="145" fill="#151515" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="900" letter-spacing="-2">CRISTOPHER</text>
-  <text x="57" y="207" fill="#151515" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="900" letter-spacing="-2">LEYVA</text>
-  <rect x="58" y="229" width="52" height="5" fill="#FF6330"/>
+    <!-- Star field -->
+    <g fill="#DDF5FF">
+      <circle cx="64" cy="47" r="1.2"/><circle cx="120" cy="104" r="0.8"/><circle cx="188" cy="37" r="1"/>
+      <circle cx="253" cy="82" r="0.7"/><circle cx="323" cy="29" r="1.1"/><circle cx="391" cy="93" r="0.8"/>
+      <circle cx="461" cy="44" r="0.7"/><circle cx="536" cy="107" r="1.1"/><circle cx="607" cy="32" r="0.7"/>
+      <circle cx="668" cy="84" r="1"/><circle cx="728" cy="35" r="0.8"/><circle cx="789" cy="76" r="1.3"/>
+      <circle cx="842" cy="29" r="0.7"/><circle cx="966" cy="49" r="1"/><circle cx="1041" cy="26" r="0.8"/>
+      <circle cx="1135" cy="119" r="1.1"/><circle cx="1167" cy="47" r="0.7"/><circle cx="1092" cy="185" r="0.8"/>
+      <circle cx="711" cy="166" r="0.8"/><circle cx="650" cy="222" r="1.1"/><circle cx="738" cy="286" r="0.7"/>
+      <circle cx="606" cy="321" r="1"/><circle cx="526" cy="270" r="0.7"/><circle cx="444" cy="331" r="1.1"/>
+      <circle cx="340" cy="288" r="0.8"/><circle cx="267" cy="333" r="0.7"/><circle cx="159" cy="299" r="1"/>
+      <circle cx="90" cy="337" r="0.7"/><circle cx="1155" cy="306" r="1.1"/><circle cx="1060" cy="330" r="0.8"/>
+    </g>
+    <g fill="#2FB5FF">
+      <circle cx="699" cy="115" r="2" filter="url(#softGlow)"/><circle cx="1019" cy="117" r="1.8" filter="url(#softGlow)"/>
+      <circle cx="569" cy="52" r="1.6" filter="url(#softGlow)"/><circle cx="1138" cy="250" r="2" filter="url(#softGlow)"/>
+    </g>
 
-  <text x="57" y="274" fill="#FF5D2A" font-family="Consolas, Menlo, monospace" font-size="18" font-weight="700" letter-spacing="1.3">FULL STACK DEVELOPER</text>
-  <text x="57" y="306" fill="#676159" font-family="Consolas, Menlo, monospace" font-size="13" letter-spacing="1">BACKEND · DATA ENGINEERING · WEB</text>
+    <!-- Planet -->
+    <circle cx="1124" cy="-2" r="148" fill="url(#planet)"/>
+    <ellipse cx="1089" cy="36" rx="102" ry="22" transform="rotate(-18 1089 36)" stroke="#6ED2FF" stroke-opacity="0.2" stroke-width="5"/>
+    <path d="M1008 56C1052 72 1118 78 1182 54" stroke="#93DDFF" stroke-opacity="0.13" stroke-width="11"/>
 
-  <rect x="685" y="38" width="460" height="264" rx="8" fill="url(#dots)"/>
-  <text x="740" y="244" fill="#151515" fill-opacity="0.07" font-family="Arial, Helvetica, sans-serif" font-size="220" font-weight="900" letter-spacing="-18">CL</text>
+    <!-- Astronaut -->
+    <g transform="rotate(5 905 219)">
+      <path d="M843 177C843 143 869 117 902 117C935 117 961 143 961 177V192H843V177Z" fill="#71869B"/>
+      <path d="M849 171C849 140 872 121 902 121C932 121 955 140 955 171V187H849V171Z" fill="url(#visor)" stroke="#CDEEFF" stroke-opacity="0.55" stroke-width="4"/>
+      <path d="M870 137C887 124 917 124 936 142" stroke="white" stroke-opacity="0.45" stroke-width="6" stroke-linecap="round"/>
+      <rect x="839" y="181" width="127" height="25" rx="10" fill="#C5D6E4"/>
+      <path d="M856 202C856 191 865 183 876 183H932C943 183 952 191 952 202L968 305C970 321 958 335 942 335H867C851 335 839 321 841 305L856 202Z" fill="url(#suit)"/>
+      <path d="M857 227L823 279" stroke="#A7BDCF" stroke-width="22" stroke-linecap="round"/>
+      <path d="M951 229L985 278" stroke="#8197AA" stroke-width="22" stroke-linecap="round"/>
+      <circle cx="817" cy="288" r="14" fill="#D8E7F1"/>
+      <circle cx="991" cy="287" r="14" fill="#AFC3D3"/>
+      <path d="M879 331L869 368" stroke="#8298AA" stroke-width="25" stroke-linecap="round"/>
+      <path d="M930 331L941 368" stroke="#687F93" stroke-width="25" stroke-linecap="round"/>
+      <rect x="873" y="223" width="63" height="50" rx="7" fill="#DDEAF3" stroke="#71889D" stroke-width="3"/>
+      <rect x="881" y="232" width="47" height="16" rx="3" fill="#142B48"/>
+      <circle cx="887" cy="259" r="4" fill="#12AFFF"/>
+      <circle cx="899" cy="259" r="4" fill="#FFB23F"/>
+      <path d="M911 259H927" stroke="#60788E" stroke-width="4" stroke-linecap="round"/>
+      <rect x="839" y="212" width="9" height="65" rx="4" fill="#0D8DF0"/>
+      <rect x="960" y="210" width="9" height="69" rx="4" fill="#164D83"/>
+    </g>
 
-  <path d="M1038 47L1119 47L1119 128" stroke="#151515" stroke-width="2"/>
-  <path d="M690 212L690 293L771 293" stroke="#151515" stroke-width="2"/>
-  <rect x="1068" y="74" width="78" height="9" transform="rotate(135 1068 74)" fill="url(#orange)"/>
+    <!-- Copy -->
+    <text x="62" y="66" fill="#55C7FF" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="700" letter-spacing="2.4">CRISTOPHER-AML.DEV  /  CDMX</text>
+    <rect x="62" y="86" width="560" height="2" fill="url(#blueLine)"/>
 
-  <rect x="714" y="67" width="12" height="12" fill="#FF6330"/>
-  <text x="739" y="78" fill="#49453F" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="700" letter-spacing="1.2">PYTHON / FASTAPI</text>
-  <rect x="714" y="99" width="12" height="12" fill="#151515"/>
-  <text x="739" y="110" fill="#49453F" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="700" letter-spacing="1.2">REACT / POLARS</text>
+    <text x="60" y="166" fill="#F4FAFF" font-family="Arial, Helvetica, sans-serif" font-size="59" font-weight="800" letter-spacing="-1.5">CRISTOPHER LEYVA</text>
+    <text x="63" y="211" fill="#69CCFF" font-family="Consolas, Menlo, monospace" font-size="21" font-weight="700" letter-spacing="1.5">FULL STACK DEVELOPER</text>
+    <text x="63" y="247" fill="#9BACBF" font-family="Consolas, Menlo, monospace" font-size="15" letter-spacing="1.2">BACKEND  ·  DATA ENGINEERING  ·  WEB</text>
 
-  <text x="905" y="286" fill="#6B665F" font-family="Consolas, Menlo, monospace" font-size="10" letter-spacing="1.3">SOFTWARE · DATOS · CLARIDAD</text>
+    <circle cx="68" cy="300" r="5" fill="#16AFFF"/>
+    <circle cx="68" cy="300" r="11" fill="#16AFFF" fill-opacity="0.16"/>
+    <text x="88" y="305" fill="#73869B" font-family="Consolas, Menlo, monospace" font-size="12" letter-spacing="1.4">EXPLORANDO SISTEMAS, DATOS Y NUEVAS IDEAS</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="358" rx="23" stroke="#52C4FF" stroke-opacity="0.2" stroke-width="2"/>
 </svg>
