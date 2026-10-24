@@ -1,59 +1,43 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Cristopher Leyva — Full Stack Developer</title>
-  <desc id="desc">Banner profesional de Cristopher Leyva, especializado en backend e ingeniería de datos.</desc>
+  <desc id="desc">Banner editorial de Cristopher Leyva, especializado en desarrollo Full Stack, backend e ingeniería de datos.</desc>
 
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#080B10"/>
-      <stop offset="0.62" stop-color="#11151D"/>
-      <stop offset="1" stop-color="#19120F"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="70" y1="0" x2="1070" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FF7A45"/>
-      <stop offset="1" stop-color="#FFB36B"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1015 180) rotate(180) scale(310 260)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FF6B35" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#FF6B35" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.035"/>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#151515" fill-opacity="0.12"/>
     </pattern>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="7"/>
-    </filter>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF5D2A"/>
+      <stop offset="1" stop-color="#FF8A4C"/>
+    </linearGradient>
   </defs>
 
-  <rect width="1200" height="360" rx="24" fill="url(#background)"/>
-  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
-  <rect width="1200" height="360" rx="24" fill="url(#glow)"/>
-  <rect x="1" y="1" width="1198" height="358" rx="23" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="2"/>
+  <rect width="1200" height="340" rx="22" fill="#F2EEE7"/>
+  <rect x="1" y="1" width="1198" height="338" rx="21" stroke="#151515" stroke-opacity="0.18" stroke-width="2"/>
+  <rect x="0" y="0" width="18" height="340" rx="9" fill="url(#orange)"/>
 
-  <rect x="68" y="52" width="255" height="32" rx="16" fill="#FF7A45" fill-opacity="0.11" stroke="#FF8A55" stroke-opacity="0.5"/>
-  <circle cx="88" cy="68" r="5" fill="#FF8A55"/>
-  <text x="102" y="73" fill="#FFB080" font-family="Consolas, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.8">SYSTEMS · DATA · WEB</text>
+  <rect x="57" y="45" width="112" height="28" fill="#151515"/>
+  <text x="70" y="64" fill="#F2EEE7" font-family="Consolas, Menlo, monospace" font-size="11" font-weight="700" letter-spacing="1.5">PORTFOLIO / 26</text>
+  <text x="187" y="64" fill="#6B665F" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="1.5">CDMX · MÉXICO</text>
 
-  <text x="68" y="148" fill="#F6F1E9" font-family="Arial, Helvetica, sans-serif" font-size="57" font-weight="800" letter-spacing="-1.5">CRISTOPHER LEYVA</text>
-  <rect x="68" y="171" width="72" height="5" rx="2.5" fill="url(#accent)"/>
-  <text x="68" y="221" fill="#D5D9E0" font-family="Consolas, Menlo, monospace" font-size="22" letter-spacing="1">FULL STACK DEVELOPER</text>
-  <text x="68" y="257" fill="#8F98A8" font-family="Consolas, Menlo, monospace" font-size="18">BACKEND  /  DATA ENGINEERING</text>
-  <text x="68" y="311" fill="#697386" font-family="Consolas, Menlo, monospace" font-size="13" letter-spacing="1.4">DEL DATO CRUDO AL SISTEMA QUE FUNCIONA.</text>
+  <text x="57" y="145" fill="#151515" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="900" letter-spacing="-2">CRISTOPHER</text>
+  <text x="57" y="207" fill="#151515" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="900" letter-spacing="-2">LEYVA</text>
+  <rect x="58" y="229" width="52" height="5" fill="#FF6330"/>
 
-  <circle cx="1005" cy="178" r="100" stroke="#FF8450" stroke-opacity="0.08" stroke-width="28"/>
-  <circle cx="1005" cy="178" r="86" stroke="#FF8450" stroke-opacity="0.2"/>
-  <circle cx="1005" cy="178" r="60" fill="#0D1117" stroke="#FF8450" stroke-opacity="0.34"/>
-  <circle cx="1005" cy="178" r="5" fill="#FF8A55" filter="url(#softGlow)"/>
-  <circle cx="1005" cy="178" r="4" fill="#FF9A65"/>
+  <text x="57" y="274" fill="#FF5D2A" font-family="Consolas, Menlo, monospace" font-size="18" font-weight="700" letter-spacing="1.3">FULL STACK DEVELOPER</text>
+  <text x="57" y="306" fill="#676159" font-family="Consolas, Menlo, monospace" font-size="13" letter-spacing="1">BACKEND · DATA ENGINEERING · WEB</text>
 
-  <path d="M878 98H928L949 119" stroke="#596273" stroke-opacity="0.65"/>
-  <circle cx="878" cy="98" r="4" fill="#596273"/>
-  <path d="M1063 237L1085 259H1135" stroke="#596273" stroke-opacity="0.65"/>
-  <circle cx="1135" cy="259" r="4" fill="#596273"/>
-  <path d="M899 265H943L965 243" stroke="#FF8450" stroke-opacity="0.5"/>
-  <circle cx="899" cy="265" r="4" fill="#FF8450"/>
-  <path d="M1063 119L1086 96H1122" stroke="#FF8450" stroke-opacity="0.5"/>
-  <circle cx="1122" cy="96" r="4" fill="#FF8450"/>
+  <rect x="685" y="38" width="460" height="264" rx="8" fill="url(#dots)"/>
+  <text x="740" y="244" fill="#151515" fill-opacity="0.07" font-family="Arial, Helvetica, sans-serif" font-size="220" font-weight="900" letter-spacing="-18">CL</text>
 
-  <text x="975" y="169" fill="#F6F1E9" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800">10M+</text>
-  <text x="970" y="193" fill="#929BAB" font-family="Consolas, Menlo, monospace" font-size="9" letter-spacing="0.8">RECORDS</text>
+  <path d="M1038 47L1119 47L1119 128" stroke="#151515" stroke-width="2"/>
+  <path d="M690 212L690 293L771 293" stroke="#151515" stroke-width="2"/>
+  <rect x="1068" y="74" width="78" height="9" transform="rotate(135 1068 74)" fill="url(#orange)"/>
+
+  <rect x="714" y="67" width="12" height="12" fill="#FF6330"/>
+  <text x="739" y="78" fill="#49453F" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="700" letter-spacing="1.2">PYTHON / FASTAPI</text>
+  <rect x="714" y="99" width="12" height="12" fill="#151515"/>
+  <text x="739" y="110" fill="#49453F" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="700" letter-spacing="1.2">REACT / POLARS</text>
+
+  <text x="905" y="286" fill="#6B665F" font-family="Consolas, Menlo, monospace" font-size="10" letter-spacing="1.3">SOFTWARE · DATOS · CLARIDAD</text>
 </svg>

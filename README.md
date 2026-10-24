@@ -15,8 +15,8 @@
 
 <table align="center">
   <tr>
-    <td align="center"><strong>10M+</strong><br /><sub>registros por lote</sub></td>
     <td align="center"><strong>Full Stack</strong><br /><sub>backend + frontend</sub></td>
+    <td align="center"><strong>Backend</strong><br /><sub>APIs y microservicios</sub></td>
     <td align="center"><strong>Data Engineering</strong><br /><sub>pipelines y automatización</sub></td>
     <td align="center"><strong>Español · EN B2</strong><br /><sub>comunicación</sub></td>
   </tr>
@@ -39,7 +39,7 @@
       <h3>◼ Balam-Ha</h3>
       <p>Motor de validaciones normativas y auditoría para lotes masivos de datos financieros.</p>
       <p><code>FastAPI</code> <code>React</code> <code>Polars</code> <code>Azure</code></p>
-      <sub>Procesamiento de hasta <strong>10 millones de registros</strong>.</sub>
+      <sub>Validación y cruce automatizado de información.</sub>
     </td>
     <td width="50%" valign="top">
       <h3>◼ Nexus DGAA</h3>
